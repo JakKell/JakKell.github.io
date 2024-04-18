@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Jacob's Website</title>
+	<link rel="stylesheet" href="myWebsite.css">
+	<script src="myJavascript.js" defer></script>
+    <script src="classes.js" defer></script>
+</head>
+<body>
+    <header>
+		<div>
+			<h1>Jacob Kelley</h1>
+		</div>
+	</header>
+    <nav id=top>
+		<a href="myWebsite.html">Home</a>
+		<a href="myFavorites.html">Favorites</a>
+		<a href="mySchedule.html">Schedule</a>
+		<a href="myTrips.html">Trips</a>
+		<a href="myFeedback.html">Feedback</a>
+		<a href="myGames.html">Games</a>
+	</nav>
+    <div id=strip></div>
+    <form id="myForm" name="myForm" onsubmit="return validateForm()">
+		<p>Please provide feedback or comments:</p>
+		<table>
+			<tr>
+				<td>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name">
+					<label for="addr">Address</label>
+					<input type="text" id="addr" name="addr">
+					<label for="cn">Country</label>
+					<input type="text" id="cn" name="cn">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email">
+					<label for="phone">Phone Number (xxx-xxx-xxxx)</label>
+					<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+				</td>
+				<td width="50%">
+					<label for="comment">Feedback/Comment</label>
+					<textarea name="comment" id="comment" rows="22"></textarea>
+				</td>
+			</tr>
+		</table>
+		<input type="button" value="Submit" onclick="return validateForm()"/>
+	</form>
+	<h1 class="hidden" id="thanks">Thank you for your feedback</h1>
+    <div id=strip></div>
+	<h1 id=open></h1>
+	<div id=strip></div>
+	<div id=presents></div>
+	<div id=strip></div>
+	<footer>
+		<p>Contact me by email: <b>jwk010702@gmail.com</b></p>
+	</footer>
+</body>

@@ -1,0 +1,276 @@
+body{
+border: 20px solid navy;
+margin: 0 0;
+background-color:aliceblue;
+}
+
+header {
+display: flex;
+justify-content: center;
+border: 5px solid navy;
+margin: 5px;
+text-decoration: underline dashed navy;
+color: navy;
+background-color:lightblue;
+}
+
+header div{
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: xx-large;
+}
+
+section{
+margin: 5px;
+}
+
+section div{
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: x-large;
+justify-content: center;
+align-items: center;
+}
+
+section div table{
+background-color: lightblue;
+border: 5px solid navy;
+border-collapse:collapse;
+}
+
+section div table td{
+padding: 10px 0;
+border-bottom: 3px dashed navy;
+width: 20%;
+}
+
+#blue{
+background-color: lightblue;
+border: 5px solid navy;
+}
+
+section div p{
+padding: 0 15px;
+}
+
+section div h2{
+color: navy;
+text-decoration: underline dashed navy;
+}
+
+figcaption{
+text-align: center;
+font-size: x-large;
+}
+
+img {
+width: 200px;
+}
+
+article{
+display: flex;
+justify-content: center;
+margin: 5px;
+justify-content: center;
+align-items: center;
+}
+
+article img{
+width: 150px;
+}
+
+article div{
+display: flex;
+flex-direction: column;
+text-align: center;
+font-size: x-large;
+height: 100%;
+justify-content: center;
+}
+
+article div p{
+padding: 0 30px;
+}
+
+article div h2{
+color: navy;
+text-decoration: underline dashed navy;
+}
+
+aside{
+margin:5px;
+}
+
+aside img{
+padding: 5px;
+}
+
+aside table{
+width: 100%;
+}
+
+aside table p{
+font-weight: bold;
+font-size: x-large;
+color: navy;
+padding: 0 20px;
+}
+
+aside table ul{
+font-size: large;
+padding-right: 30px;
+display:inline-block;
+text-align:left;
+}
+
+aside table iframe{
+display:block;
+margin: auto;
+border: 5px solid navy;
+}
+
+aside table div{
+display: flex;
+justify-content: space-around;
+}
+
+nav{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 5px;
+}
+
+nav p{
+text-align: center;
+font-size: x-large;
+margin:5px;
+}
+
+nav table{
+border-collapse:collapse;
+background-color: lightblue;
+width:100%;
+margin-top: 10px;
+border:5px solid navy;
+}
+
+nav table td{
+vertical-align: center;
+text-align: center;
+padding: 10px;
+}
+
+#white{
+background-color: aliceblue;
+}
+
+form{
+margin: 5px;
+border: 5px solid navy;
+padding: 5px;
+}
+
+form p{
+color: navy;
+font-size: xx-large;
+}
+
+form label{
+font-size: x-large;
+}
+
+form input{
+width: 100%;
+padding: 5px 0;
+margin: 5px 0;
+}
+
+form textarea{
+width: 100%;
+resize: none;
+}
+
+form table td{
+padding:0 5px;
+}
+
+form input[type=button]{
+background-color: lightblue;
+color: navy;
+font-size: x-large;
+width: 33%;
+margin-left: 33%;
+}
+
+footer {
+display: flex;
+justify-content: center;
+border: 5px solid navy;
+margin: 5px;
+background-color:lightblue;
+}
+
+footer p{
+text-align: center;
+font-size: x-large;
+}
+
+#strip{
+background-color:aliceblue;
+height:50px;
+width:100%;
+margin: 15px 0;
+}
+
+#tictactoe{
+background-color: aliceblue;
+width: 250px;
+height: 250px;
+}
+
+#tictactoe td{
+border: 5px solid navy;
+height: 50px;
+width: 50px;
+}
+
+#game p{
+margin-top: -10px;
+}
+
+#top{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: x-large;
+border: 5px solid navy;
+padding: 5px 0;
+background-color: lightblue;
+}
+
+#top a{
+color: navy;
+}
+
+.hidden{
+display: none;
+}
+
+h1{
+color: navy;
+text-decoration: underline dashed navy;
+text-align: center;
+}
+
+#presents{
+display: flex;
+justify-content: space-around;
+}
+
+#presents img{
+height: 300px;
+}
+
